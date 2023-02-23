@@ -222,6 +222,13 @@ h6, .h6 { @include fluid-type(font-size, $screen-xs, $screen-xxl-max, 14px, 20px
     top: 50%;
     transform: translateY(-50%);
     pointer-events: none;
+    transition: right 0.3s ease;
+  }
+
+  &:hover {
+    &:after {
+      right: -3px;
+    }
   }
 }
 
