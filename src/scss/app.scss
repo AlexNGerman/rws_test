@@ -1,5 +1,8 @@
 /* Vendor */
-@import '~bootstrap/scss/bootstrap';
+$enable-grid-classes: true;
+$enable-cssgrid: true;
+
+@import '~bootstrap/scss/bootstrap-grid';
 
 /* Base */
 @import 'base';

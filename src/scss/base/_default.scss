@@ -113,11 +113,11 @@ footer {
 }
 
 @include media-breakpoint-up(xl) {
-  // .container {
-  //   &,
-  //   &-lg,
-  //   &-xl {
-  //     max-width: 1200px;
-  //   }
-  // }
+  .container {
+    &,
+    &-lg,
+    &-xl {
+      max-width: 1200px;
+    }
+  }
 }

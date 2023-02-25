@@ -1,4 +1,4 @@
-.post-card {
+.product-card {
   position: relative;
   height: auto;
   margin: auto;
@@ -10,7 +10,7 @@
   border: 1px solid $color-blue-light-2;
   box-shadow: 0 4px 8px rgba($color-black, 0.1);
   border-radius: 6px;
-
+  --bs-gap: 2.5rem;
   @include media-breakpoint-down(lg) {
     
   }
@@ -20,6 +20,7 @@
   }
 
   @include media-breakpoint-down(sm) {
-
+    --bs-gap: 0;
+    row-gap: 8px;
   }
 }
